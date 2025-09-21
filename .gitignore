@@ -1,0 +1,23 @@
+# Bỏ qua các file Python biên dịch
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.env
+venv/
+ENV/
+.venv/
+
+*.pt
+*.pth
+dataset/
+features_dataset.pt
+features_test.pt
+
+data/
+
+*.log
+
+.vscode/
+.idea/
